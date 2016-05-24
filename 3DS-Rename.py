@@ -192,7 +192,7 @@ v0.config(menu=menu1)
 menu1_1 = Menu(menu1, tearoff=0)
 menu1.add_cascade(label="Menu", menu=menu1_1)
 menu1_1.add_command(label="Update database",command=lambda: descargar())
-menu1_1.add_command(label="About",command=lambda: tkMessageBox.showinfo('About', "3DS Rename v3.0\nBy Medly13", icon='info'))
+menu1_1.add_command(label="About",command=lambda: tkMessageBox.showinfo('About', "3DS Rename v3.0\nBy Medly13\nhttps://github.com/Medly13/3DS-Rename", icon='info'))
 
 frame2=Frame(v0)
 frame2.pack(padx=20,pady=10,fill = X)
